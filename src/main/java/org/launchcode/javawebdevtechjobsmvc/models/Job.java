@@ -49,12 +49,12 @@ public class Job {
             positionType.setValue("Data not available");
         }
 
-        output = String.format("\nID: %d\n" +
-                "Name: %s\n" +
-                "Employer: %s\n" +
-                "Location: %s\n" +
-                "Position Type: %s\n" +
-                "Core Competency: %s\n", id, name, employer, location, positionType, coreCompetency);
+        output = String.format("ID: %d<br/>" +
+                "Name: %s<br/>" +
+                "Employer: %s<br/>" +
+                "Location: %s<br/>" +
+                "Position Type: %s<br/>" +
+                "Core Competency: %s<br/>", id, name, employer, location, positionType, coreCompetency);
         return output;
     }
 
